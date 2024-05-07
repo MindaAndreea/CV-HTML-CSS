@@ -1,0 +1,58 @@
+.cv-body {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.paragraf {
+  font-family: Verdana;
+  font-size: 18px;
+  color: rgb(28, 100, 76);
+}
+.p1 {
+  background-color: lightpink;
+  font-size: 22px;
+}
+.h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(224, 196, 196);
+  background-color: black;
+}
+.h2 {
+  text-decoration: underline;
+}
+.h3 {
+  text-decoration: underline;
+  color: rgb(138, 5, 83);
+  background-color: rgba(195, 145, 243, 0.514);
+  text-align: center;
+}
+
+.p2 {
+  background-color: rgba(194, 233, 235, 0.432);
+  font-size: 20px;
+}
+
+.ol {
+  font-size: 18px;
+  line-height: 23px;
+  color: rgb(121, 18, 218);
+}
+
+.i {
+  background-color: rgba(96, 212, 233, 0.623);
+  text-decoration: underline;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.b {
+  font-size: 21px;
+  font-family: Verdana;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+}

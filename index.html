@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+      ol {
+        list-style: none;
+        counter-reset: num;
+      }
+      ol li {
+        counter-increment: num;
+      }
+      ol li::before {
+        content: counter(num) ". ";
+        color: rgb(128, 136, 10);
+      }
+      table,
+      td,
+      th {
+        border: 1px solid black;
+        text-align: center;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cv-body">
+      <h1 class="h1">CV Minda Andreea Valeria</h1>
+      <img src="poza cv.jpg" alt="Poza mea" width="300" />
+      <h2 class="h2">Contact:</h2>
+      <ul class="paragraf">
+        <li>Nr. tel.: 0766431201</li>
+        <li>Email: minda.andreea.valeria@gmail.com</li>
+        <li>Adresa: Bucuresti, Sector 1</li>
+      </ul>
+      <h3 class="h3">Despre mine:</h3>
+      <p class="p1">
+        Sunt o persoana foarte sociabila. Imi place sa invat lucruri noi. De
+        asemenea, sunt foarte ambitioasa si atunci cand imi doresc ceva, lucrez
+        pentru a atinge acel lucru. In prezent sunt studenta la Academia de
+        Studii Economice, pe profilul Relatii Economice in limba engleza. In
+        viitor doresc sa continui sa studiez Diplomatie Internationala. Cunosc
+        limba franceza la un nivel destul de avansat si invat germana.
+      </p>
+      <h3 class="h3">Experienta profesionala:</h3>
+      <p>
+        <i class="i">Septembrie 2018 - Iunie 2022-></i>
+        <b class="b">Eleva la Colegiul National Fratii Buzesti Craiova: </b
+        ><b style="font-size: 19px"
+          >profilul matematica informatica bilingv engleza</b
+        >
+      </p>
+      <p class="p2">
+        Perioada liceului m-a ajutat foarte mult sa ma dezvolt pe mine ca
+        persoana si sa imi aleg calea in viata. Am fost membra a clubului de
+        dezbateri timp de 3 ani si am participat la voluntariat, ajungand chiar
+        si vice-presedintele clubului de voluntariat Leo-Terra Nova Craiova timp
+        de un an. Tot in aceasta perioada mi-am luat si diploma de Cambridge,
+        CPE cu un punctaj aproape maxim.
+      </p>
+      <p>
+        <i class="i">Decembrie 2022 - Aprilie 2023 -> </i
+        ><b class="b">
+          Profesoara de Engleza Cambridge la Asociatia ROVOLUTION</b
+        >
+      </p>
+      <p class="p2">
+        In aceasta perioada am predat engleza la copii cu varste intre 5 si 17
+        ani. Fiind o asociatie privata, toate problemele erau discutate direct
+        cu parintii si am avut de a face cu diferite tipuri de oameni. M-a
+        ajutat acest lucru sa fiu capabila sa ma descurc in orice situatie.
+      </p>
+      <p>
+        <i class="i">Septembrie 2023 - Iunie 2026 -> </i
+        ><b class="b"> Studenta la Academia de Studii Economice Bucuresti</b>
+      </p>
+      <div style="background-color: rgba(127, 255, 212, 0.425)">
+        <p>
+          <b>Profil: </b>
+          <i>Relatii Economice Internationale in Limba Engleza</i>
+        </p>
+      </div>
+      <p class="p2">
+        Aceasta facultate mi-a deschis orizonturile catre foarte multe lucruri
+        diferite la care nu m-as fi asteptat vreodata sa fiu buna sau sa imi
+        placa, printre care se numara matematica si tot ce tine de business si
+        economie.
+      </p>
+      <p>
+        <i class="i">Decembrie 2023 -> </i
+        ><b class="b">Vizita la Parlamentul European in Bruxelles</b>
+      </p>
+      <p class="p2">
+        A fost o vizita cu toate costurile acoperite de catre Parlamentul
+        European. In aceasta perioada de 3 zile in care am fost in Bruxelles am
+        fost timp de o zi intreaga la Parlamentul European in care ne-au fost
+        aratate si explicate diferite chestii despre istoria locului si a
+        Uniunii Europene. Acest lucru m-a facut sa imi doresc sa ajung si eu
+        acolo candva.
+      </p>
+      <p>
+        <i class="i">Februarie 2024 - Iulie 2024 -></i
+        ><b class="b">Curs de IT - Front End Developer</b>
+      </p>
+      <p class="p2">
+        Pe durata acestui curs am dobandit cunostinte in HTML, CSS, GIT&GITHUB,
+        JavaScript si React. Pot atasa proiectele mari facute de mine pe durata
+        acestui curs.
+      </p>
+      <h3 class="h3">Abilitati:</h3>
+      <div class="ol">
+        <ol>
+          <li>Comunicare</li>
+          <li>Abilitatea de a lucra sub presiune</li>
+          <li>Luarea deciziilor</li>
+          <li>Adaptabilitate</li>
+          <li>Creativitate</li>
+          <li>Invatarea de lucruri noi</li>
+        </ol>
+      </div>
+      <p class="p1"><b>Competente limbi straine:</b></p>
+    </div>
+    <div style="background-color: rgba(192, 240, 224, 0.5)">
+      <table>
+        <tr>
+          <th>Limba straina</th>
+          <th>Nivel</th>
+          <th>Competente</th>
+        </tr>
+        <tr>
+          <td>Engleza</td>
+          <td>C2</td>
+          <td>
+            Pot sa folosesc limba engleza la fel ca un nativ si scris si vorbit.
+          </td>
+        </tr>
+        <tr>
+          <td>Franceza</td>
+          <td>B1</td>
+          <td>
+            Pot intelege complet conversatia si pot purta dialoguri coerente
+            despre lucruri basic cu un vorbitor nativ.
+          </td>
+        </tr>
+        <tr>
+          <td>Germana</td>
+          <td>A2</td>
+          <td>Pot purta conversatii despre din viata de zi cu zi.</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
