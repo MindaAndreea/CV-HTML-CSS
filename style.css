@@ -1,12 +1,44 @@
-.cv-body {
-  margin-left: 10px;
-  margin-right: 10px;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 1px;
+}
+
+h2,
+.paragraf,
+h3,
+p {
+  padding: 15px;
+}
+
+.text-align-center {
+  text-align: center;
+  line-height: 1.5;
 }
 
 .paragraf {
   font-family: Verdana;
   font-size: 18px;
   color: rgb(28, 100, 76);
+  margin-left: 30px;
+}
+
+.paragraf li {
+  margin-bottom: 15px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: rgb(28, 100, 76);
+}
+
+a:hover {
+  color: rgb(138, 5, 83);
+  background-color: rgba(195, 145, 243, 0.514);
+  padding: 5px;
 }
 
 .p1 {
@@ -16,13 +48,22 @@
 
 .h1 {
   text-align: center;
-  text-decoration: underline;
   color: rgb(224, 196, 196);
   background-color: black;
+  font-size: 35px;
+  margin-top: 0;
+  padding: 20px;
+}
+
+#poza {
+  margin: 0 auto;
+  display: flex;
 }
 
 .h2 {
   text-decoration: underline;
+  text-align: center;
+  font-size: 25px;
 }
 
 .h3 {
